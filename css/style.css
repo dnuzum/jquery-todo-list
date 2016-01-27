@@ -1,0 +1,40 @@
+body {
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	font-family: 'Waiting for the Sunrise', cursive;
+	text-align: center;
+	font-size: 40px;
+}
+
+h1 {
+	font-size: 50px;
+	margin: 20px auto;
+}
+
+ul {
+	margin: 0 auto;
+}
+
+li {
+	list-style-type: none;
+}
+
+.strike {
+	text-decoration: line-through;
+}
+
+input {
+	border: 1px dotted #999;
+	border-radius: 25px;
+	font-family: inherit;
+	font-size: 30px;
+	text-align: inherit;
+}
+
+button {
+	border: 1px dotted #999;
+	border-radius: 25px;
+	font-family: inherit;
+	font-size: 30px;
+	text-align: inherit;
+}
