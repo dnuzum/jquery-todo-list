@@ -21,7 +21,7 @@ $(document).ready(function() {
   //   console.log('Item clicked!');
   //   $(this).parent().addClass("strike");
   // });
-
+	  $('ul').css('cursor', 'pointer');
 	  $('ul').on('click', 'li', function() {
 	  console.log('li clicked!');
 	  $(this).toggleClass("strike");
