@@ -22,10 +22,12 @@ $(document).ready(function() {
   //   $(this).parent().addClass("strike");
   // });
 
-  $('ul').on('click', 'li span', function() {
-  console.log('Item clicked!');
-  $(this).parent().toggleClass("strike");
-// $(this).parent().toggleClass("strike");
+	  $('ul').on('click', 'li', function() {
+	  console.log('li clicked!');
+	  $(this).toggleClass("strike");
+	});
+	  $('ul').on('click', 'li span', function() {
+	  console.log('span clicked!');
+	  $(this).parent().remove();
   });
-
 });
