@@ -17,14 +17,14 @@ $(document).ready(function() {
 		$('ul').append('<li>' + $todo + '<span> -X</span></li>');
  });
 
-  $('ul').on('click', 'li span', function() {
-    console.log('Item clicked!');
-    $(this).parent().addClass("strike");
-  });
+  // $('ul').on('click', 'li span', function() {
+  //   console.log('Item clicked!');
+  //   $(this).parent().addClass("strike");
+  // });
 
   $('ul').on('click', 'li span', function() {
   console.log('Item clicked!');
-  $(this).parent().addClass("strike");
+  $(this).parent().toggleClass("strike");
 // $(this).parent().toggleClass("strike");
   });
 
